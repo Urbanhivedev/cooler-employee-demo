@@ -14,7 +14,7 @@ export default function LoginForm() {
   const navigate = useNavigate();
 
   const [email, setEmail] = useState("demo@cooler.com");
-  const [password, setPassword] = useState(123456);
+  const [password, setPassword] = useState("123456");
   const [showPassword, setShowPassword] = useState(false);
   const [loading, setLoading] = useState(false);
   const dispatch = useDispatch(); 
