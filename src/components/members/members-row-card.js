@@ -12,7 +12,11 @@ import 'react-toastify/dist/ReactToastify.css';
 // import BookDevModal from './bookdev-modal';
 import EmptyAvatar from '../../assets/images/empty-avatar.png';
   
-
+import ava1 from '../../assets/images/ava1.jpg';
+import ava2 from '../../assets/images/ava2.jpg';
+import ava3 from '../../assets/images/ava3.jpg';
+import ava4 from '../../assets/images/ava4.jpeg'; 
+import ava5 from '../../assets/images/ava5.jpg';
 
 const Img = styled('img')({
     margin: 'auto',
