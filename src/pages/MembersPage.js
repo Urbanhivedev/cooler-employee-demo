@@ -52,6 +52,7 @@ export default function MembersPage() {
         status={"Paid"}
         isSelf={member.id === user.id ? true : false}
         avatarNumber={Math.floor(Math.random()*5)}
+        image={member.imageUrl}
         />
         </>
       )

@@ -62,7 +62,7 @@ const useStyles = makeStyles((theme) => ({
   
 
 
-function MembersRowCard ({ name, email, joined, status, isSelf,avatarNumber}) {
+function MembersRowCard ({ name, email, joined, status, isSelf,avatarNumber,image}) {
     const [isOpen, setIsOpen] = useState(false);
     const classes = useStyles();
     const classes2 = useStyles2();
@@ -129,7 +129,7 @@ function MembersRowCard ({ name, email, joined, status, isSelf,avatarNumber}) {
         >
           <Grid container spacing={2}>
             <Grid item>
-            <Avatar alt="Profile Pic" src={avatarNumber===1?ava1:(avatarNumber===2?ava2:(avatarNumber===3?ava3:(avatarNumber===4?ava4:ava5)))} style={{ width: '120px', height: '120px'}} />
+            <Avatar alt="Profile Pic" src={image} style={{ width: '120px', height: '120px'}} />
               {/* <ButtonBase sx={{ width: 128, height: 128 }}>
               <Img alt="complex" src={RectangleIMG} />
               </ButtonBase> */}
