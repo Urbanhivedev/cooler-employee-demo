@@ -22,6 +22,8 @@ import RecentTransaction from 'src/components/home/recent-transaction';
 import { fetchMyTransactions } from 'src/redux/actions/transaction.action';
 import HomeCoolersCard from 'src/components/home/home-coolers-card';
 
+//placeholder image ofr coolers
+import chase from 'src/assets/images/Group_Logo.png'
 
 const CHART_HEIGHT = 392;
 const LEGEND_HEIGHT = 72;
@@ -111,7 +113,7 @@ const myCoolerGroups = myGroups?.length ? (
       name={group.groupName} 
       fee={fCurrency(group.amount)}
       count={`${group.members.length} OF ${group.noOfSavers} SAVERS`}
-      img={group.imageUrl}
+      img={chase}
       members={group.members}
       isMember={group.members.includes(user?.id)}
       startDate={group.startDate}

@@ -13,7 +13,8 @@ import { fCurrency } from '../utils/formatNumber';
 import CoolerRowCard from 'src/components/coolers/cooler-row-card';
 import { fetchUserData } from 'src/redux/actions/auth.action';
 
-
+//placeholder image ofr coolers
+import chase from 'src/assets/images/Group_Logo.png'
 
 export default function CoolersPage() {
   const theme = useTheme();
@@ -42,7 +43,7 @@ const allCoolerGroup = allGroups?.length ? (
       accountBal={group.accountBalance}
       count={`${group.members.length} OF ${group.noOfSavers} SAVERS`}
       status={group.members.includes(user.id) ? "View" : "Join"}
-      img={group.imageUrl}
+      img={chase}
       members={group.members}
       isMember={group.members.includes(user.id)}
       startDate={group.startDate}

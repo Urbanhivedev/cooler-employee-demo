@@ -51,6 +51,7 @@ export default function MembersPage() {
         joined={dateString}
         status={"Paid"}
         isSelf={member.id === user.id ? true : false}
+        avatarNumber={Math.floor(Math.random()*5)}
         />
         </>
       )
