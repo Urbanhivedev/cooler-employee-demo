@@ -137,7 +137,7 @@ const myCoolerGroups = myGroups?.length ? (
          Welcome 🖐🏽
         </Typography> */}
         <Grid container spacing={2}>
-            <Grid item xs={12} md={8} lg={6}>
+            <Grid item xs={12} md={12} lg={6}>
               <Paper
                 sx={{
                   p: 2,
@@ -156,7 +156,7 @@ const myCoolerGroups = myGroups?.length ? (
               </Paper>
             </Grid>
 
-             <Grid item xs={12} md={8} lg={6}>
+             <Grid item xs={12} md={12} lg={6}>
               <Paper
                 sx={{
                   p: 2,
@@ -191,7 +191,7 @@ const myCoolerGroups = myGroups?.length ? (
               }
             </Grid>
 
-             <Grid item xs={8} md={6} lg={5}>
+             <Grid item xs={12} md={12} lg={5}>
              {/* <Grid item xs={12} md={8} lg={6}> */}
               <Paper
                 sx={{
