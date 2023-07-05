@@ -145,13 +145,13 @@ useEffect(() => {
       <Button
         disabled={isLoading}
         variant="contained"
-        style={{ minHeight: '45px', minWidth: '145px', backgroundColor: '#348AED', marginLeft: '10rem' }}
+        style={{ minHeight: '45px', minWidth: '145px', backgroundColor: '#348AED' }}
         onClick={() => makePayment()}
       >
         <b>{isLoading ? "Loading..." : "PAY"}</b>
       </Button>
       </Box>
-      
+
     </Grid>
   </Grid>
 </Grid>
