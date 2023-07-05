@@ -48,7 +48,7 @@ export default function MembersPage() {
       <MembersRowCard 
         name={member.firstName + " " + member.lastName} 
         email={member.email} 
-        joined={dateString}
+        joined={member.accountCreated}
         status={"Paid"}
         isSelf={member.id === user.id ? true : false}
         avatarNumber={Math.floor(Math.random()*5)}

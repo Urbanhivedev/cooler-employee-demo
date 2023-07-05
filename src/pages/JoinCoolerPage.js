@@ -141,6 +141,7 @@ useEffect(() => {
       {/* <div style={{ border: '1px solid grey', width: '100%' }}></div> */}
       <br />
 
+      <Box sx={{ marginLeft:{ lg:'10rem'}   }}>
       <Button
         disabled={isLoading}
         variant="contained"
@@ -149,6 +150,8 @@ useEffect(() => {
       >
         <b>{isLoading ? "Loading..." : "PAY"}</b>
       </Button>
+      </Box>
+      
     </Grid>
   </Grid>
 </Grid>
