@@ -44,12 +44,12 @@ export default function HomePage() {
 
   const chartOptions = merge(BaseOptionChart(), {
     colors: [
-      theme.palette.primary.lighter,
-      theme.palette.primary.light,
+      //theme.palette.primary.lighter,
+      //theme.palette.primary.light,
       theme.palette.primary.main,
       theme.palette.primary.dark,
     ],
-    labels: [],
+    labels: ["ACCRUED","ACCRUED"],
     interactions: [],
     stroke: { colors: [theme.palette.background.paper] },
     legend: { floating: true, horizontalAlign: 'center', show:false },
