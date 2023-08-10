@@ -62,7 +62,11 @@ export default function HomePage() {
           size: '70%',
           labels: {
             value: {
-              formatter: (val) =>fCurrency(user &&user.accruedBalance?user.accruedBalance:0),
+              formatter: (val) =>{if(user &&user.accruedBalance)
+                             {return fCurrency(user.accruedBalance)}
+                            else {return '$0'}
+                
+                       }
             },
             total: {
               formatter: (w) => {
