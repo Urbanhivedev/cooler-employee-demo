@@ -62,7 +62,7 @@ export default function HomePage() {
           size: '70%',
           labels: {
             value: {
-              formatter: (val) => fNumber(0),
+              formatter: (val) =>fCurrency(user?.accruedBalance),
             },
             total: {
               formatter: (w) => {
