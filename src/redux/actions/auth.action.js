@@ -14,7 +14,7 @@ import resetDemoUser from './helperActions/resetDemoUser'
       console.log('Signed In user is: ', user.email);
       
    //value resetting for demo user
-  if(user && user.uid === "SPfPRMLZNDV08A1BGDctm6UAVov2"){
+  if(user && user.uid === "FzHaFDUVrQNZOP4keX8t5cJlvm32"){
 
     resetDemoUser(user.uid) 
   }
@@ -216,7 +216,7 @@ export const logout = (navigate,user) => async (dispatch) => {
  
    
    //value resetting for demo user 
-  if(user && user.id === "SPfPRMLZNDV08A1BGDctm6UAVov2"){
+  if(user && user.id === "FzHaFDUVrQNZOP4keX8t5cJlvm32"){
 
     resetDemoUser(user.id) 
  
